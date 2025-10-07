@@ -1,4 +1,4 @@
-wallpaper: "/home/elijah/.config/backgrounds/black-hole.jpg"
+wallpaper: "$HOME/.config/backgrounds/black-hole.jpg"
 
 special:
     background: "#09080F"
