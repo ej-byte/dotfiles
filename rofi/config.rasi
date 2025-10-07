@@ -1,0 +1,82 @@
+configuration {
+  display-drun: " 󰍢  ";
+  drun-display-format: "{name}";
+  font: "CaskaydiaCove Nerd Font 16";
+}
+
+window {
+  width: 1000px;
+  height: 440px;
+  background-color: rgba(9, 8, 15, 0.49);
+  border: 2px;
+  border-color: #E87287;
+  border-radius: 42px;
+}
+
+mainbox {
+    padding: 0px 38px;
+}
+
+inputbar {
+  children: ["prompt", "entry"];
+  border: 2px;
+  border-color: #E87287;
+  border-radius: 64px;
+  margin: 38px 38px 24px 38px;
+  padding: 16px 24px;
+}
+
+prompt {
+  text-color: #f1c4c5;
+  font: "CaskaydiaCove Nerd Font 24";
+}
+
+entry {
+  text-color: #f1c4c5;
+  cursor-color: transparent;
+  placeholder: "";
+  font: "CaskaydiaCove Nerd Font 16";
+  vertical-align: 0.5;
+}
+
+element {
+  children: ["element-icon", "element-text"];
+  padding: 12px;
+}
+
+element-text {
+  vertical-align: 0.5;
+  horizontal-align: 0.05;
+}
+
+element-icon {
+  size: 42px;
+}
+
+element.selected.normal {
+  background-color: transparent;
+  text-color: #E87287;
+  border: 2px;
+  border-color: #E87287;
+  border-radius: 32px;
+}
+
+element.normal.normal, element.alternate.normal {
+  background-color: transparent;
+  text-color: #f1c4c5;
+}
+
+listview {
+  spacing: 0px;
+  margin: 0px 46px 12px 46px;
+  border-color: transparent;
+  scrollbar: false;
+  columns: 2;
+}
+
+textbox {
+  text-color: #E87287;
+  vertical-align: 0.5;
+  horizontal-align: 0.5;
+  padding: 100px;
+} 

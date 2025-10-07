@@ -1,0 +1,62 @@
+#workspaces {
+  margin: 4 6px;
+}
+
+window#waybar {
+  background-color: rgba(9, 8, 15, 0.75);
+  border: 2px solid #E87287;
+  border-radius: 20px;
+  padding: 20px 4px;
+}
+
+#workspaces button {
+  color: #E87287;
+}
+
+#workspaces button:hover {
+  background: none;
+  box-shadow: none;
+  color: #C15672;
+}
+
+
+#clock {
+  font-family: "CaskaydiaCove Nerd Font";
+  font-weight: bold;
+  color: #E87287;
+  margin-right: 18px;
+}
+
+#pulseaudio {
+  font-family: "CaskaydiaCove Nerd Font";
+  font-weight: bold;
+  color: #E87287;
+  margin-right: 24px;
+}
+
+#custom-bluetooth {
+  font-family: "CaskaydiaCove Nerd Font";
+  font-weight: bold;
+  color: #E87287;
+  margin-right: 24px;
+}
+
+#custom-cpu {
+  font-family: "CaskaydiaCove Nerd Font";
+  font-weight: bold;
+  color: #E87287;
+  margin-right: 24px;
+}
+
+#custom-gpu {
+  font-family: "CaskaydiaCove Nerd Font";
+  font-weight: bold;
+  color: #E87287;
+  margin-right: 64px;
+}
+
+#custom-media {
+  font-family: "CaskaydiaCove Nerd Font";
+  font-weight: bold;
+  color: #E87287;
+}

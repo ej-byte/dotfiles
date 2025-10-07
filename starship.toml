@@ -1,0 +1,33 @@
+format = """
+[░▒▓](fg:soft_pink)\
+$username\
+[](fg:soft_pink bg:light_pink)\
+$directory\
+[](fg:light_pink)
+$character"""
+
+palette = 'custom_starship'
+
+[palettes.custom_starship]
+base = "#09080F"
+muted = "#a88989"
+dark_violet_1 = "#6D385B"
+dark_violet_2 = "#6E3D5D"
+medium_purple = "#6E3D5D"
+pinkish_red = "#C15672"
+dusty_rose = "#B46885"
+soft_pink = "#E87287"
+light_pink = "#f1c4c5"
+
+[directory]
+style = "bg:light_pink fg:#1a1a1a"
+format = "[ $path ](bg:light_pink fg:#1a1a1a)"
+
+[username]
+style_user = "bg:soft_pink fg:#1a1a1a"
+show_always = true
+format = "[ $user ]($style)"
+
+[character]
+success_symbol = '[ 󰍢 ](bold fg:light_pink bg:none)'
+error_symbol = '[ 󰍢 ](bold fg:light_pink bg:none)'

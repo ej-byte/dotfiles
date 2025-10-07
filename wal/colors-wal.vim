@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/elijah/.config/backgrounds/black-hole.jpg"
+let background = "#09080F"
+let foreground = "#f1c4c5"
+let cursor     = "#f1c4c5"
+
+" Colors
+let color0  = "#09080F"
+let color1  = "#6D385B"
+let color2  = "#6E3D5D"
+let color3  = "#9F4C6E"
+let color4  = "#C15672"
+let color5  = "#B46885"
+let color6  = "#E87287"
+let color7  = "#f1c4c5"
+let color8  = "#a88989"
+let color9  = "#6D385B"
+let color10 = "#6E3D5D"
+let color11 = "#9F4C6E"
+let color12 = "#C15672"
+let color13 = "#B46885"
+let color14 = "#E87287"
+let color15 = "#f1c4c5"

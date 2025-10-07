@@ -1,0 +1,63 @@
+{
+  "height": 42,
+  "width": 2520,
+  "position": "top",
+  "margin-top": 5,
+  "margin-bottom": -10,
+  "modules-left": ["hyprland/workspaces"],
+  "modules-center": ["custom/media"],
+  "modules-right": ["custom/cpu", "custom/gpu", "custom/bluetooth", "pulseaudio", "clock"],
+  "hyprland/workspaces": {
+    "format": "{icon}",
+    "format-icons": {
+      "default": "○",
+      "active": "●"
+    }
+  },
+  "clock": {
+    "format": "{:%I:%M %p}",
+    "format-alt": "{:%B %d}",
+    "tooltip": false
+  },
+  "custom/bluetooth": {
+    "exec": "~/.config/waybar/bt-status.sh",
+    "interval": 5,
+    "tooltip": false,
+    "on-click": "blueman-manager"
+  },
+  "pulseaudio": {
+    "format": "{volume}% {icon}",
+    "format-muted": "",
+    "format-icons": {
+      "default": ["", "", ""]
+    },
+    "on-click": "pavucontrol",
+    "tooltip": false
+  },
+  "custom/media": {
+    "format": "{icon} {text}",
+    "return-type": "json",
+    "max-length": 40,
+    "format-icons": {
+      "default": "",
+    },
+    "exec": "$HOME/.config/waybar/mediaplayer.py 2> /dev/null",
+    "escape": true,
+    "tooltip": false,
+    "interval": 5
+  },
+  "custom/cpu": {
+    "exec": "$HOME/.config/waybar/cpu.sh",
+    "interval": 0,
+    "return-type": "json",
+    "format": "{text}",
+    "tooltip": false
+  },
+  "custom/gpu": {
+    "exec": "$HOME/.config/waybar/gpu.sh",
+    "interval": 0,
+    "return-type": "json",
+    "format": "{text}",
+    "tooltip": false
+  }
+}

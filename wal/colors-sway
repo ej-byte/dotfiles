@@ -1,0 +1,21 @@
+set $wallpaper /home/elijah/.config/backgrounds/black-hole.jpg
+
+set $background #09080F
+set $foreground #f1c4c5
+
+set $color0 #09080F
+set $color1 #6D385B
+set $color2 #6E3D5D
+set $color3 #9F4C6E
+set $color4 #C15672
+set $color5 #B46885
+set $color6 #E87287
+set $color7 #f1c4c5
+set $color8 #a88989
+set $color9 #6D385B
+set $color10 #6E3D5D
+set $color11 #9F4C6E
+set $color12 #C15672
+set $color13 #B46885
+set $color14 #E87287
+set $color15 #f1c4c5
