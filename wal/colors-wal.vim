@@ -1,5 +1,5 @@
 " Special
-let wallpaper  = "/home/elijah/.config/backgrounds/black-hole.jpg"
+let wallpaper  = "$HOME/.config/backgrounds/black-hole.jpg"
 let background = "#09080F"
 let foreground = "#f1c4c5"
 let cursor     = "#f1c4c5"
