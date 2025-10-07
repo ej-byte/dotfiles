@@ -1,4 +1,4 @@
-set $wallpaper /home/elijah/.config/backgrounds/black-hole.jpg
+set $wallpaper $HOME/.config/backgrounds/black-hole.jpg
 
 set $background #09080F
 set $foreground #f1c4c5
